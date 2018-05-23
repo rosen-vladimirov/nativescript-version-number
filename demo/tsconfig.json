@@ -30,8 +30,11 @@
             ]
         }
     },
+    "include": [
+        "app/*",
+        "node_modules/nativescript-version-number/*"
+    ],
     "exclude": [
-        "node_modules",
         "platforms"
     ],
     "compileOnSave": false
